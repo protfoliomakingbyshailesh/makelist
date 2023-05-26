@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'ALGERIAN'; */
+}
+.main_container{
+    background-color: #f5e2c2d8;
+    width: 100%;
+    height: 100vh;
+    padding: 50px 0 10px 0;
+    font-family: 'ALGERIAN';
+
+}
+.ToDo_primry_text{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2bf80f6;
+    background: transparent;
+    box-shadow: 5px 5px 18px -5px #5c5348dc;
+}
+.takeList_Container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.takeList_Container input{
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 18px -5px #9d8970dc;
+}
+.takeList_Container button{
+    width: 70px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #0aca0ad7;
+}
+.list_dataContainer{
+    width: 830px;
+    height: 110px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 0 20px 0 10px;
+    background-color: #f7dab4e2;
+    text-transform: capitalize;
+
+}
+.smallList_box{
+    width: 700px;
+    text-align: left;
+    line-break:normal;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.smallList_box2{
+    border-left: 2px solid rgba(54, 44, 44, 0.185);
+    padding-left: 16px;
+}
+.dbl_mark{
+    width: 30px;
+    padding-top: 5px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    background-color: #0dc80d;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px -5px #605950e2;
+}
+.deletMrk{
+    width: 30px;
+    padding-top: 5px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: #e60620;
+    color: wheat;
+    box-shadow: 5px 5px 10px -5px #605950e2;
+}
+
+@media(max-width:825px){
+    
+    .list_dataContainer{
+        max-width: 760px;
+        /* display: none; */
+    }
+    .smallList_box{
+        width: 670px;
+        text-align: left;
+        line-break:normal;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+    
+}
+@media(max-width:755px){
+    .takeList_Container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .list_dataContainer{
+        max-width: 600px;
+        /* display: none; */
+    }
+    .smallList_box{
+        width: 510px;
+        text-align: left;
+        line-break:normal;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+    
+}
+@media(max-width:585px){
+    .list_dataContainer{
+        max-width: 550px;
+        /* display: none; */
+    }
+    .smallList_box{
+        width: 470px;
+        text-align: left;
+        line-break:normal;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+}
+@media(max-width:555px){
+    .list_dataContainer{
+        max-width: 490px;
+        /* display: none; */
+    }
+    .smallList_box{
+        width: 405px;
+        text-align: left;
+        line-break:normal;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+}
+@media(max-width:455px){
+    .list_dataContainer{
+        max-width: 400px;
+        /* display: none; */
+    }
+    .smallList_box{
+        width: 315px;
+        text-align: left;
+        line-break:normal;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+}
